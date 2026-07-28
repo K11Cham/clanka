@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Authentication credentials (Baileys session data)
+auth_info_baileys/
+
+# Database files with user data
+bot_db.json
+known_groups.json
+superadmin_db.json
+
+# Temporary files
+temp/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
